@@ -2,21 +2,29 @@
 <html lan ="EN">
     <head>
         <script>
-            function greet()
-            {
+
+       document.addEventListener('DOMContentLoaded',function(){
+               document.querySelector('form').addEventListener('submit',function(){
                 let name = document.querySelector('#name').value;
-                alert ('hello,'+name);
-            }
+                alert ('Hello,  '+ name);
+               });
+             });
+
+
         </script>
+
         <title>
         Hello Title
         </title>
+
     </head>
     <body>
-        <form onsubmit = "greet();return false;">
-            <input id ="name" type="text">
-            <input type ="submit">
+        <form>
+            <input id ="name" autocomplete = "off" autofocus placeholder="Whats Your Name" type="text">
+            <input type ="submit" value = "GreetMe">
         </form>
     </body>
+
+
 
 </html>
