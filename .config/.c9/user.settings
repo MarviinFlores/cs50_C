@@ -1,15 +1,32 @@
 {
     "ace": {
+        "@fontSize": 16,
         "@keyboardmode": "default",
         "@showFoldWidgets": false,
+        "@showGutter": true,
         "@showPrintMargin": false,
         "statusbar": {
             "@show": true
         }
     },
+    "clipboard": {
+        "@dontshow": true
+    },
+    "collab": {
+        "@timeslider-visible": false
+    },
+    "debug": {
+        "@pause": 0
+    },
     "language": {
         "@continuousCompletion": false,
         "@enterCompletion": false
+    },
+    "openfiles": {
+        "@show": false
+    },
+    "projecttree": {
+        "@showhidden": false
     },
     "tabs": {
         "@asterisk": false,
@@ -26,6 +43,7 @@
         }
     },
     "terminal": {
+        "@fontsize": 16,
         "@scrollback": 2000
     }
 }

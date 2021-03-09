@@ -10,7 +10,7 @@
         "@stripws": true
     },
     "language": {
-        "@undeclaredVars": true
+        "@undeclaredVars": false
     },
     "python": {
         "@path": "/usr/local/lib/python3.7/site-packages"
