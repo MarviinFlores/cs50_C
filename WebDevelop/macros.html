@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>
+            MacrosGrabarDB
+        </title>
+    </head>
+    <body>
+       <!--RECORD 1 REGISTER IN DB IN 1 COL DOWN STEP BY STEP AND ADD 2TH COL AND -->
+       <div class ="container">
+       
+       <p>
+       SUB grabar()
+       Sheets("DBSHEET").select  // db select
+       </p>
+       <p>
+       Range("A3").EntireRow.Insert // row+col selection
+       Sheets("REGISTRO").select // BACK TO register form sheet form selection
+       Range("G7").copy // content copy from register sheet for DB SHEET
+       </p>
+        <p>
+       Sheets("DBSHEET").select  // db select
+       Range("B3").PasteSpecial xlPasteValues // paste values from register
+       </p>
+       <p>
+       // REPEAT A PROCES WITH THE NEXT COL AND ROW JUST CHANGE THE POSITIONS
+       Sheets("REGISTRO").select // BACK TO register form sheet form selection
+       </p>
+    </div>
+       </container>
+    </body>
+</html>
